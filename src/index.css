@@ -1,4 +1,14 @@
-body {
+html,body {
+  display: block;
+  /* font-size: 100%; */
+  box-sizing: content-box;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  /* padding-right: 0px !important; */
+  width: 100%;
+  height: 100%;
+  border:0;
+  padding: 0rem;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -7,7 +17,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+}
+/* #4776c4  #516F90 F5F8FA rgb(87, 99, 111) ou #57636F
+rgb(35, 47, 62)  ou #232F3E
+perfect amazon blue : rgb(216, 247, 235) ou #D8F7EB
+amazon ad to basket color : #f7ca00 ou rgb(247, 202, 0)*/

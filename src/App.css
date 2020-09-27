@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+:root{
+  --mainBlue:#2a2a72;
+  --skyBlue: #005ed2;
+  --lightBlue:#009ffd;
+  --mainWhite:#f3f3f3c7;
+  --mainDark:#232528;
+  --mainGreen:#2c974b;
+  --mainRed:#f01f7a;
+  --mainYellow:#ff804b;
+  --lightCol:#ffa400;
+  --lightdark:#3f4448;
+  --plusDark:#4f4f4f;
+  --lightpurple:#945de4;
+  --redPink:#fe696a;
+  --bleud:#6200ee;
+  --mdc-theme-secondary: #03dac6;
+  --mdc-theme-error: #b00020;
+
+
+}
+body {
+  /* overflow-x: hidden;  */
+  font-family: 'Oswald', sans-serif !important;
+  background:var(--mainWhite)!important ;
+  color: var(--mainDark)!important;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* remouve out line dotted */
+/* a, a:active, a:focus, 
+button, button:focus, button:active, 
+.btn, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn.active.focus {
+    outline: none !important;
+     outline: 0 !important; 
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* input::-moz-focus-inner {
+    border: 0 !important;
+} */
+.text-title {
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'Jost', sans-serif;
+  /* letter-spacing: 0.1rem ; */
+  text-transform: uppercase;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.text-cart{
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    /* font-family: 'Roboto', sans-serif;     */
+    font-family: 'Crimson Text', serif !important;
+    /* font-family: 'Jost', sans-serif; */
+    letter-spacing: 0.01rem ;
+  text-transform:capitalize;
+}
+.text-blue{
+  color: var(--mainBlue);
+}
+.text-Skyblue{
+  color: var(--skyBlue);
+}
+.text-bright {
+  color: var(--lightBlue);
+}
+.Container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.btn-secondary{
+  background:white !important;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color:var(--mainDark) !important;
+  border-radius: 0 !important;
+  border: 0.001rem solid var(--plusDark)!important;
+  padding-top: 0.4rem ;
+  padding-bottom: 0.19rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0.6rem; 
+  
+}
+.btn-secondary:hover{
+  background-color:  var(--mainYellow) !important;
+  color: var(--mainDark) !important;
+}
+..btn-secondary>i{
+  color: #232528 !important;
 
-.App-link {
-  color: #61dafb;
 }
+ 
+  
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.cart-icon{
+  cursor: pointer;
+  font-size: 1rem;
+  color: var(--lightCol);
 }
+/* font-family: Helvetica,"Helvetica Neue",Arial,"Lucida Grande",sans-serif; */
