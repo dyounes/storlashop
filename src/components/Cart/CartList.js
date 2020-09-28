@@ -1,5 +1,4 @@
 import React from 'react';
-import CartItem from './CartItem';
 import PerfectCart from './PerfectCart';
 import CartTotal from './CartTotal';
 

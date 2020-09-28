@@ -4,15 +4,15 @@ import PaypalButton from './PaypalButton';
 
 export default function CartTotal({value, history}) {
     const {cartSubtotal, cartTax, cartTotal, clearCart}= value;
-    const{cart} = value;
+    
 
-    console.log("That's the cart",cart)
+    // console.log("That's the cart",cart)
     // const {id} = item; 
     // console.log(items)
     // storeProducts.forEach(item => {
     //     const singleItem = {...item};});
 
-    const{increment, decrement, removeItem}=value;
+    
     return (
       <React.Fragment>
         <React.StrictMode>

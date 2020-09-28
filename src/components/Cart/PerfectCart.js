@@ -3,8 +3,8 @@ import React from 'react';
 export default function PerfectCart({item, value}) {
   const {id, title, img, price, company, total, count}=item;
     const{increment, decrement, removeItem}=value;
-    const {cart} = value;
-    console.log(cart.length)
+    
+    
     return (
     
     

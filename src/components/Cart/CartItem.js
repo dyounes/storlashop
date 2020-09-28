@@ -1,8 +1,8 @@
 import React from 'react'
 
 export default function CartItem({item, value}) {
-    const {id, title, img, price, total, count}=item;
-    const{increment, decrement, removeItem}=value;
+    const {id, title, img, price}=item;
+    const{decrement}=value;
     // display the product from the cart object in the value object
     return (
         <div className="row my-1 text-capitalize text-center" >
